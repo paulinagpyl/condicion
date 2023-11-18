@@ -1,0 +1,57 @@
+body {
+    height: 100vh; 
+    margin: 0; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background-image: url(../img/fondo-acuarela-colores_521516-1.jpg);
+    background-size: cover;
+  }
+h2{
+    margin: 0;
+    text-align: center;
+    color:palevioletred;
+}
+p{
+    margin:5px;
+}
+.productos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.prod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section{
+    text-align: center;
+}
+#img0{
+    width: 10%;
+    border-radius: 50%;
+    border: none;
+}
+#img0.con-borde{
+    border: 2px solid red
+}
+
+#img1{
+    width: 35%;
+    border-radius: 10%;
+}
+#img2{
+    width: 40%;
+    border-radius: 10%;
+}
+#img3{
+    width: 45%;
+    border-radius: 10%;
+}
